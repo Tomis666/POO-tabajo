@@ -1,0 +1,32 @@
+# Evita que tus noticias de prueba borren las de tus compañeros
+canal_noticias.db
+*.db
+*.sqlite3
+
+
+# Carpetas que Python crea automáticamente y que no se deben subir
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# No compartan las librerías instaladas (Peewee/PrettyTable), cada uno debe instalarlas con 'pip'
+venv/
+.venv/
+env/
+ENV/
+
+
+# Evita que las preferencias de tu VS Code o PyCharm rompan el editor de tu compañero
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+
+.DS_Store
+Thumbs.db
